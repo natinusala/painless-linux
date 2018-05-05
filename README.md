@@ -1,5 +1,54 @@
 # switch-linux
 
+## How to use it
+
+### Step 0 : what you'll need
+
+* A Switch
+* A way to run the exploit (the host machine) :
+  * A PC on Windows or Linux
+  * A Mac
+  * An Android phone with USB OTG support
+* A way to plug your Switch in the host machine :
+  * If using a computer, an USB A-to-C or C-to-C cable
+  * If using an Android device with a Micro USB port, find a Micro USB cable (often labelled "OTG") and chain it to a Type-C cable
+  * If using an Android device with a Type-C port, find a C-to-C cable or a C-to-A chained to a A-to-C cable
+* A SD card for you Switch (of at least 4Gb)
+
+### Step 1 : downloading things
+
+TODO : IMG links
+
+1. Clone or download this repository ([here](https://github.com/natinusala/switch-linux/archive/master.zip))
+2. Download the image file for your desired distribution
+
+### Step 2 : SD card preparation
+
+TODO : Flash a IMG file and done
+
+1. Extract the ZIP of the repository somewhere
+2. Copy the contents of the `sd` folder to the root of your SD card
+    * You should have a `boot` folder containing multiple files
+3. Create a second ext4 partition and put your rootfs here
+
+### Step 3 : booting Linux
+
+#### From a Windows PC
+
+On Windows, you will first need to install the required driver :
+
+1. Get your Switch in RCM mode and plug it into your PC
+    * It should appear as "APX" in Windows
+2. Download and run the Zadig Driver Installer from here : https://zadig.akeo.ie/ 
+3. In the list, choose the device "APX"
+    * If it's not showing up, check "List all devices" in the options
+4. At the right end of the green arrow, choose "libusbK (v3.0.7.0)"
+5. Click on the big "Install driver" button
+
+Then, make sure that your Switch is in RCM mode. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
+
+#### From a Linux PC or a Mac
+
 ## What works / what doesn't work
 
 * **Wi-Fi** : works after a reboot
