@@ -62,7 +62,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
 
 Then, put your Switch in RCM mode and plug it in your PC. You should use a blue "SS" port as these have a greater chance of success (EHCI controller doesn't work, XHCI controller works, blue ports have a greater chance of using XHCI).
 
-Once ready, run the `linux-macos-boot.sh` script from this repository's folder. Voilà !
+Once ready, run the `linux-macos-boot.sh` script from this repository's folder. Again, I let you deal with permissions issues. Voilà !
 
 #### From an Android device
 
