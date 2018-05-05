@@ -1,5 +1,11 @@
 # switch-linux
 
+## Disclaimer
+
+I am not reponsible in case you brick or blow up your Switch, its LCD screen or its battery. Use this at your own risks, as Linux is known to cause **battery calibration desync** and **damage to the LCD display**.
+
+**You have been warned.**
+
 ## How to use it
 
 ### Step 0 : what you'll need
@@ -83,6 +89,7 @@ _NXLoader update coming soon_
   * No graceful shutdown
   * GPU profile has to be selected by hand
   * Battery level correctly recognized
+  * Be careful as staying for a long time in Linux desyncs the battery calibration on Horizon and _can_ cause the console to shutdown unexpectedly (at 50%)
 
 ## How to build it yourself
 
