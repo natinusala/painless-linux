@@ -8,6 +8,23 @@ I am not reponsible in case you brick or blow up your Switch, its LCD screen or 
 
 **You have been warned.**
 
+## What am I booting ?
+
+### The system
+
+It's Arch Linux ARM (ALARM) with the GNOME desktop manager and some utilities :
+* `sudo`
+* chromium browser
+* `/opt/power.sh` script to manage GPU power profiles
+* SSH server enabled by default
+* automatic root filesystem resize to fit your SD card
+
+The default user is `alarm`, its password is `alarm`. The root password is `root`.
+
+### How to see and select the current GPU power profile
+
+TODO
+
 ## How to use it
 
 ### Step 0 : what you'll need
