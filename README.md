@@ -71,6 +71,12 @@ _NXLoader update coming soon_
 ## Troubleshooting
 
 * Having a black screen despite the fact that the exploit worked ? Just shut down the Switch (10 seconds power button press) and try again, it happens sometimes.
+* Wi-Fi doesn't work ? Make sure you reboot properly :
+    1. Plug your Switch back into your host machine
+    2. Using the touchscreen, open the top-right menu and click on the power button
+    3. Click on the `Restart` button
+    4. Wait for the full reboot of the console
+    5. Launch the exploit again so that Linux boots
 
 ## What works / what doesn't work
 
