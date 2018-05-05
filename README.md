@@ -51,7 +51,7 @@ Then, make sure that your Switch is in RCM mode. Open the folder of this reposit
 
 Install Python 3 (usually already installed). Open a terminal to install the required package : `pip3 install pyusb==1.0.0`. I let you deal with permissions issues (hint : `sudo` works on Linux).
 
-Then, put your Switch in RCM mode and run the `linux-macos-boot.sh` script. Voilà !
+Then, put your Switch in RCM mode and run the `linux-macos-boot.sh` script from this repository's folder. Voilà !
 
 #### From an Android device
 
