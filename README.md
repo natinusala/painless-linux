@@ -49,6 +49,18 @@ Then, make sure that your Switch is in RCM mode. Open the folder of this reposit
 
 #### From a Linux PC or a Mac
 
+Install Python 3 (usually already installed). Open a terminal to install the required package : `pip3 install pyusb==1.0.0`. I let you deal with permissions issues (hint : `sudo` works on Linux).
+
+Then, put your Switch in RCM mode and run the `linux-macos-boot.sh` script. Voilà !
+
+#### From an Android device
+
+_NXLoader update coming soon_
+
+## Troubleshooting
+
+* Having a black screen despite the fact that the exploit worked ? Just shut down the Switch (10 seconds power button press) and try again, it happens sometimes.
+
 ## What works / what doesn't work
 
 * **Wi-Fi** : works after a reboot
