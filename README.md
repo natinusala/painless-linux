@@ -110,4 +110,4 @@ Then, use shofel2 to run the coreboot you recompiled, like usual. Linux should b
 ## Credits
 * kombos for the pre-built kernel and DTB
 * rajkosto for TegraRcmSmash
-* fail0verflow for their coreboot, u-boot and Linux port
+* fail0verflow for shofel2 and their coreboot, u-boot & Linux port
