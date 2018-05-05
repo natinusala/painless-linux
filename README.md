@@ -10,7 +10,7 @@ I am not reponsible in case you brick or blow up your Switch, its LCD screen or 
 
 ### Step 0 : what you'll need
 
-* A Switch
+* A first-gen Switch
 * A way to run the exploit (the host machine) :
   * A PC on Windows or Linux
   * A Mac
