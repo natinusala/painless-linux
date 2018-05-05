@@ -1,6 +1,6 @@
 # switch-linux
 
-# How to use (not user-friendly yet)
+# How to build it yourself
 
 Follow the steps on fail0verflow's repository, but instead of using their fork of u-boot, use [mine](https://github.com/natinusala/switch-u-boot). If you already built everything, you will need to rebuild u-boot using my fork and _then_ rebuild coreboot.
 
