@@ -51,13 +51,15 @@ On Windows, you will first need to install the required driver :
 4. At the right end of the green arrow, choose "libusbK (v3.0.7.0)"
 5. Click on the big "Install driver" button
 
-Then, make sure that your Switch is in RCM mode. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
+Then, make sure that your Switch is in RCM mode and plugged in your PC. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
 
 #### From a Linux PC or a Mac
 
 Install Python 3 (usually already installed). Open a terminal to install the required package : `pip3 install pyusb==1.0.0`. I let you deal with permissions issues (hint : `sudo` works on Linux).
 
-Then, put your Switch in RCM mode and run the `linux-macos-boot.sh` script from this repository's folder. Voilà !
+Then, put your Switch in RCM mode and plug it in your PC. You should use a blue "SS" port as these have a greater chance of success (EHCI controller doesn't work, XHCI controller works, blue ports have a greater chance of using XHCI).
+
+Once ready, run the `linux-macos-boot.sh` script from this repository's folder. Voilà !
 
 #### From an Android device
 
