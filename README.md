@@ -1,5 +1,28 @@
 # switch-linux
 
+## What works / what doesn't work
+
+* **Wi-Fi** : works after a reboot
+  * After each cold boot, you should reboot (it will reboot to RCM) and run the exploit again to enable Wi-Fi
+* **Bluetooth** : works partially
+  * Keyboards and mice work
+  * Joy-Cons, speakers and headphones don't
+* **Touch screen** : works
+* **Audio** : not working, even through Bluetooth headphones or speakers
+* **Hardware graphics acceleration** : works
+  * You have to select a power profile manually at each reboot using the `switchpower` script
+* **Wired Joy-Cons** : to be implemented
+* **Volume buttons** : recognized but don't do anything since there is no audio device
+* **Power button** : only works to halt the system with a long-press
+  * no graceful shutdown
+  * no sleep mode
+* **USB** : not working
+* **Dock** : to be implemented
+* **Power management** : works partially
+  * No graceful shutdown
+  * GPU profile has to be selected by hand
+  * Battery level correctly recognized
+
 ## How to build it yourself
 
 Follow the steps on fail0verflow's repository, but instead of using their fork of u-boot, use [mine](https://github.com/natinusala/switch-u-boot). If you already built everything, you will need to rebuild u-boot using my fork and _then_ rebuild coreboot.
