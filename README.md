@@ -61,19 +61,13 @@ When shutting down the Switch from Linux, **it doesn't actually power it off**. 
 
 ### Step 1 : downloading things
 
-TODO : IMG links
-
 1. Clone or download this repository ([here](https://github.com/natinusala/switch-linux/archive/master.zip))
-2. Download the image file for your desired distribution
+2. Download the latest image file :
+    * [painless-linux-1.img](https://mega.nz/#!CPBEFARA!eZ2Ylhjz6kkSt14H_tPi2xZPJ0G0-a-6fLdMR7u0qNQ)
 
 ### Step 2 : SD card preparation
 
-TODO : Flash a IMG file and done
-
-1. Extract the ZIP of the repository somewhere
-2. Copy the contents of the `sd` folder to the root of your SD card
-    * You should have a `boot` folder containing multiple files
-3. Create a second ext4 partition and put your rootfs here
+Follow [this guide](https://www.raspberrypi.org/documentation/installation/installing-images/) with your SD card and the image file you downloaded.
 
 ### Step 3 : booting Linux
 
