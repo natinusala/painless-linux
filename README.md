@@ -69,6 +69,8 @@ When shutting down the Switch from Linux, **it doesn't actually power it off**. 
 
 Follow [this guide](https://www.raspberrypi.org/documentation/installation/installing-images/) with your SD card and the image file you downloaded.
 
+TL;DR : on Windows use Etcher, on Linux & Mac OS use `dd`
+
 ### Step 3 : booting Linux
 
 #### From a Windows PC
