@@ -35,6 +35,10 @@ To see the current clock profile, run the `get-gpu-clock-profile` command as roo
 
 To set the current clock profile, use the `set-gpu-clock-profile` command.
 
+### First boot
+
+When booting for the first time, the system will resize the root partition to fill your entire SD card and then reboot. You will need to run the exploit again once the screen turns black to finalize the reboot process, like when enabling Wi-Fi.
+
 ### Good practices
 
 When shutting down the Switch from Linux, **it doesn't actually power it off**. Press the power button for 10 seconds and reboot into Horizon before shutting down from there.
