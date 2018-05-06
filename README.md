@@ -37,7 +37,7 @@ To set the current clock profile, use the `set-gpu-clock-profile` command.
 
 ### First boot
 
-When booting for the first time, the system will resize the root partition to fill your entire SD card and then reboot. You will need to run the exploit again once the screen turns black to finalize the reboot process, like when enabling Wi-Fi.
+When booting for the first time, the system will expand the root partition to fill your entire SD card, and then reboot (like a Raspberry Pi). You will need to run the exploit again once the screen turns black to finalize the reboot process, like when enabling Wi-Fi.
 
 ### Good practices
 
@@ -146,6 +146,7 @@ Once ready, run the `linux-macos-boot.sh` script from this repository's folder. 
 * **Dock** : to be implemented
 * **Power management** : works partially
   * No graceful shutdown
+  * No reboot to Linux, only reboot to RCM
   * GPU profile has to be selected by hand
   * Battery level correctly recognized
   * Be careful as staying for a long time in Linux desyncs the battery calibration on Horizon and _can_ cause the console to shutdown unexpectedly (at 50%)
