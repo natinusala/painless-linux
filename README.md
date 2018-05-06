@@ -161,7 +161,9 @@ Then, make sure that the first partition of the console's SD card is FAT32 and c
 
 Put the SD card in the console.
 
-Then, use shofel2 to run the coreboot you recompiled, like usual. Linux should boot immediately without the need to run `imx_usb` !
+Then, use shofel2 to run the coreboot you recompiled, like usual. Linux should boot immediately without the need to run `imx_usb` ! 
+
+_You should probably put a rootfs in mmcblk0p2._
 
 ## Credits
 * kombos for the pre-built kernel and DTB
