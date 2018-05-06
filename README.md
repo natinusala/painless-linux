@@ -33,7 +33,7 @@ TODO
 * A way to run the exploit (the host machine) :
   * A PC on Windows or Linux
   * A Mac
-  * An Android phone with USB OTG support
+  * An Android device with Android 4.3 or newer and USB OTG support
 * A way to plug your Switch in the host machine :
   * If using a computer, an USB A-to-C or C-to-C cable
   * If using an Android device with a Micro USB port, find a Micro USB cable (often labelled "OTG") and chain it to a Type-C cable
@@ -71,19 +71,32 @@ On Windows, you will first need to install the required driver :
 4. At the right end of the green arrow, choose "libusbK (v3.0.7.0)"
 5. Click on the big "Install driver" button
 
-Then, make sure that your Switch is in RCM mode and plugged in your PC. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
+Then, make sure that your Switch is plugged in your PC and in RCM mode. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
 
 #### From a Linux PC or a Mac
 
 Install Python 3 (usually already installed). Open a terminal to install the required package : `pip3 install pyusb==1.0.0`. I let you deal with permissions issues (hint : `sudo` works on Linux).
 
-Then, put your Switch in RCM mode and plug it in your PC. You should use a blue "SS" port as these have a greater chance of success (EHCI controller doesn't work, XHCI controller works, blue ports have a greater chance of using XHCI).
+Then, plug your switch in your PC and put it in RCM mode. You should use a blue "SS" port as these have a greater chance of success (EHCI controller doesn't work, XHCI controller works, blue ports have a greater chance of using XHCI).
 
 Once ready, run the `linux-macos-boot.sh` script from this repository's folder. Again, I let you deal with permissions issues (if it cannot find the module `usb` it means that you have insufficient permissions). Voilà !
 
 #### From an Android device
 
-_NXLoader update coming soon_
+1. Download and install the latest release of this app : https://github.com/natinusala/switch_linux_launcher/releases/latest
+2. Run it - it will tell you that some files are missing, remember the folder in the dialog, it should look like one of these :
+    * `/storage/emulated/0/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
+    * `/sdcard/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
+4. Exit the app (if you can close the task using the multitask button it's better)
+5. From the `payloads` folder of the repository, copy the `cbfs.bin` and `coreboot.rom` files to the `shofel2` folder on your Android device (the folder of the previous step)
+6. Run the app again - if the dialog doesn't show up then you can go on, otherwise you did something wrong
+7. (Optional) Depending on your device, you might need to enable "OTG" or "OTG Storage" in the Android settings
+8. Plug your Switch in your Android device
+    * If the Switch is charging from your phone, you can go on
+    * If your phone is charging from the Switch, try to reverse the cabling so that your phone charges the Switch instead
+    * If nothing happens, I'm afraid your phone doesn't have OTG (or it's not enabled) - the exploit might now work
+9. Put your Switch in RCM mode
+10. Voilà !
 
 ## Troubleshooting
 
@@ -135,4 +148,5 @@ Then, use shofel2 to run the coreboot you recompiled, like usual. Linux should b
 ## Credits
 * kombos for the pre-built kernel and DTB
 * rajkosto for TegraRcmSmash
+* MCMrARM for the Switch Linux Launcher app
 * fail0verflow for shofel2 and their coreboot, u-boot & Linux port
