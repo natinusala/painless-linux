@@ -126,7 +126,6 @@ Follow the steps on fail0verflow's repository, but instead of using their fork o
 Then, make sure that the first partition of the console's SD card is FAT32 and create a `boot` folder. Inside, put :
 * `Image.gz` : the zipped Linux kernel
 * `tegra210-nintendo-switch.dtb` : the DTB
-* `initramfs.uImage` : the initramfs image (this is the `switch.scr.img` file)
 * `boot.scr` : you can generate it by using the `make.sh` script in the `src` folder of this repository
 
 Put the SD card in the console.
