@@ -15,7 +15,7 @@ I am not reponsible in case you brick or blow up your Switch, its LCD screen or 
 It's Arch Linux ARM (ALARM) with the GNOME desktop manager and some utilities :
 * `sudo`
 * chromium browser
-* `/opt/power.sh` script to manage GPU power profiles
+* `set-gpu-power-profile` script to manage GPU power profiles
 * SSH server enabled by default
 * automatic root filesystem resize to fit your SD card
 
