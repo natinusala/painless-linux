@@ -35,6 +35,10 @@ To see the current clock profile, run the `get-gpu-clock-profile` command as roo
 
 To set the current clock profile, use the `set-gpu-clock-profile` command.
 
+### Good practices
+
+When shutting down the Switch from Linux, **it doesn't actually power it off**. Press the power button for 10 seconds and reboot into Horizon before shutting down from there.
+
 ## How to use it
 
 ### Step 0 : what you'll need
