@@ -167,4 +167,8 @@ Then, use shofel2 to run the coreboot you recompiled, like usual. Linux should b
 * kombos for the pre-built kernel and DTB
 * rajkosto for TegraRcmSmash
 * MCMrARM for the Switch Linux Launcher app
+* Gigaa for the GPU clock speed service
+* 00cancer for the initial GNOME image
+* ctyler for the rootfs-resize script
 * fail0verflow for shofel2 and their coreboot, u-boot & Linux port
+* Everyone else who participated !
