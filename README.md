@@ -21,9 +21,19 @@ It's Arch Linux ARM (ALARM) with the GNOME desktop manager and some utilities :
 
 The default user is `alarm`, its password is `alarm`. The root password is `root`.
 
-### How to see and select the current GPU power profile
+### How to see and select the current GPU clock profile
 
-TODO
+The system comes with two scripts to see and select the current GPU clock profile. There are currently three profiles which can be enabled :
+
+* `low` (`03`) : normal undockedspeed
+* **(default)** `normal` (`0a`) :  normal docked speed
+* `high` (`0d`) : (not recommended) maximum speed, will cause power failures
+
+The system will reset to the normal profile at each reboot.
+
+To see the current clock profile, run the `get-gpu-clock-profile` command as root. It will list all the available profiles, with a star next to the one currently activated.
+
+To set the current clock profile, use the `set-gpu-clock-profile` command.
 
 ## How to use it
 
