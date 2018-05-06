@@ -57,6 +57,7 @@ When shutting down the Switch from Linux, **it doesn't actually power it off**. 
   * If using an Android device with a Micro USB port, find a Micro USB cable (often labelled "OTG") and chain it to a Type-C cable
   * If using an Android device with a Type-C port, find a C-to-C cable or a C-to-A chained to a A-to-C cable
 * A SD card for you Switch (of at least 8Gb)
+    * 128Gb cards are currently not supported by the Switch, a Linux kernel patch is required
 * A way to put your Switch in RCM mode (a jig, a paperclip, a wire, a Joy-Con mod, a screwdriver, a soldering iron...)
 
 ### Step 1 : downloading things
