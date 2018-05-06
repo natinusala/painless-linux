@@ -17,7 +17,7 @@ It's Arch Linux ARM (ALARM) with the GNOME desktop manager and some utilities :
 * chromium browser
 * scripts to manage GPU clock profiles
 * SSH server enabled by default
-* automatic root filesystem resize to fit your SD card
+* automatic root filesystem expand to fit your SD card
 
 The default user is `alarm`, its password is `alarm`. The root password is `root`.
 
