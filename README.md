@@ -1,4 +1,4 @@
-# switch-linux
+# Painless Linux
 
 Boot Linux on the Switch without imx_usb_loader - Windows, Linux, Mac OS & Android
 
