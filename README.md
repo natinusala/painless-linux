@@ -89,6 +89,8 @@ On Windows, you will first need to install the required driver :
 
 Then, make sure that your Switch is plugged in your PC and in RCM mode. Open the folder of this repository (the one you downloaded and extracted) and run `windows-boot.bat` (or `windows-win32-boot.bat` on a 32bit machine). Voilà !
 
+_Having a Win32 error 31 is normal._
+
 #### From a Linux PC or a Mac
 
 Install Python 3 (usually already installed). Open a terminal to install the required package : `pip3 install pyusb==1.0.0`. I let you deal with permissions issues (hint : `sudo` works on Linux).
