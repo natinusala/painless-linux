@@ -64,7 +64,8 @@ When shutting down the Switch from Linux, **it doesn't actually power it off**. 
 
 1. Clone or download this repository ([here](https://github.com/natinusala/switch-linux/archive/master.zip))
 2. Download the latest image file :
-    * [painless-linux-1.img](https://mega.nz/#!CPBEFARA!eZ2Ylhjz6kkSt14H_tPi2xZPJ0G0-a-6fLdMR7u0qNQ)
+    * [from mega.co.gz](https://mega.nz/#!CPBEFARA!eZ2Ylhjz6kkSt14H_tPi2xZPJ0G0-a-6fLdMR7u0qNQ)
+    * [from Google Drive (thanks to kevandkkim)](https://drive.google.com/file/d/1rO8XmusLBG6UnB2FfRp13_cL6t_0CsOM/view?usp=sharing)
 
 ### Step 2 : SD card preparation
 
