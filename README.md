@@ -4,7 +4,7 @@ Boot Linux on the Switch without imx_usb_loader - Windows, Linux, Mac OS & Andro
 
 ## Disclaimer
 
-I am not reponsible in case you brick or blow up your Switch, its LCD screen or its battery. Use this at your own risks, as Linux is known to cause **battery calibration desync** and **damage to the LCD display**.
+I am not reponsible in case you brick or blow up your Switch, its LCD screen or its battery. Use this at your own risks, as Linux is known to cause **battery calibration** and **RTC** desync as well as potential **damage to the LCD display**.
 
 **You have been warned.**
 
