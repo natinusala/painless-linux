@@ -1,6 +1,6 @@
 # Painless Linux
 
-Boot Linux on the Switch without imx_usb_loader - Windows, Linux, Mac OS & Android
+Boot Linux on the Switch without imx_usb_loader - Windows, Linux, ~~Mac OS~~ & Android
 
 ## Disclaimer
 
@@ -50,7 +50,7 @@ When shutting down the Switch from Linux, **it doesn't actually power it off**. 
 * A first-gen Switch
 * A way to run the exploit (the host machine) :
   * A PC on Windows or Linux
-  * A Mac
+  * ~~A Mac~~
   * An Android device with Android 4.3 or newer, USB OTG support and a XHCI controller (you can't really know that before trying)
 * A way to plug your Switch in the host machine :
   * If using a computer, an USB A-to-C or C-to-C cable
