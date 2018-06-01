@@ -150,7 +150,8 @@ Once ready, run the `linux-macos-boot.sh` script from this repository's folder. 
   * GPU profile has to be selected by hand
   * Battery level correctly recognized
   * Be careful as staying for a long time in Linux desyncs the battery calibration on Horizon and _can_ cause the console to shutdown unexpectedly (at 50%)
-
+  
+* **Gnome-terminal** : Tofix ! It crash use xterm instead .
 ## How to build it yourself
 
 Follow the steps on fail0verflow's repository, but instead of using their fork of u-boot, use [mine](https://github.com/natinusala/switch-u-boot). If you already built everything, you will need to rebuild u-boot using my fork and _then_ rebuild coreboot.
